@@ -1,0 +1,54 @@
+.logo{
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+}
+body{
+    background-image: radial-gradient(rgb(226, 212, 19),rgb(240, 233, 240))
+}
+
+.container{
+    /* background-color: red; */
+    height: 60vh;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    overflow-y: auto;
+}
+
+.message{
+    background-color: grey;
+    padding: 5px;
+    padding-left: 20px;
+    margin: 10px;
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+
+#messageInp{
+    width: 93%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btn{
+    width: 5%;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
